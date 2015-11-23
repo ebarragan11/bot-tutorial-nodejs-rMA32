@@ -61,7 +61,7 @@ function respond() {
   } 
   else if(request.text && botRegexSb.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://http://daddyleagues.com/MCLeague");
+    postMessage("http://daddyleagues.com/MCLeague");
     this.res.end();
   } 
   else if(request.text && botRegexSh.test(request.text)) {
