@@ -86,7 +86,7 @@ function respond() {
   } 
   else if(request.text && botRegexrules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1La2rjYKkFupl6kwMq4DUk6mAMgbEmobTbPQvQcnQ9Lc/edit?usp=sharing"+request.text.substring(5,8)+"/depthchart");
+    postMessage("https://docs.google.com/document/d/1La2rjYKkFupl6kwMq4DUk6mAMgbEmobTbPQvQcnQ9Lc/edit?usp=sharing");
     this.res.end();
   
   
